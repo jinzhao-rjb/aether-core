@@ -1,0 +1,38 @@
+# Rust build artifacts
+target/
+
+# Python cache
+__pycache__/
+
+# Temporary files
+aether_test.tmp
+test_io_file
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cargo files
+Cargo.lock
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
